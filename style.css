@@ -1,0 +1,25 @@
+.result{
+    white-space: pre-line;
+}
+
+.error{
+    color: red;
+}
+
+#sq1{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+#sq2{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(5, 60, 241);
+}
+
+#sq3{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(5, 241, 5);
+}
