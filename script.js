@@ -65,6 +65,9 @@ const inp2 = document.getElementById('inp2')
 const btn = document.getElementById('btn')
 const result = document.getElementById('result')
 
+console.log('123');
+
+
 check = btn.addEventListener('click', logVal)
 
 
