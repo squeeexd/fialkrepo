@@ -100,3 +100,79 @@
 // }
 
 
+//19.09.2025
+
+// let a = 10
+// while (a>0) {
+//         if (a==5) {
+//         a--
+//         continue
+//     }
+//     console.log(a);
+//     a--
+// }
+
+// for (let index = 20; index >= 10; index-=2) {
+//     if (index%3==0) {
+//         continue
+//     }
+//     console.log(index)
+    
+// }
+
+// let a = ["Математика", "Кошка", "Магазин","Никита", "Стул",]
+
+// a.forEach((element, index) => {
+//     if (element [0]==='М'){
+//     console.log(`${index} : ${element}`);
+//     }
+// });
+
+
+// let b = 0
+// while (true) {
+//     let a = Math.floor((Math.random()*100)+1)
+//     console.log(a)
+//     b+=a
+//     if (a==1)
+//         break
+// }
+// console.log(b);
+
+
+
+// console.log(Math.floor(Math.random()*10))
+
+// console.log('Privet');
+
+
+// setTimeout(() => {
+//    console.log('Poka');
+    
+// }, 3000);
+
+
+// const circle = document.getElementById('const')
+
+let interval = setInterval(() => {
+    circle.classList.add('moveRight')
+    setTimeout(() => {
+        circle.classList.add('moveDown')
+        setTimeout(() => {
+            circle.classList.remove('moveRight')
+            setTimeout(() => {
+               circle.classList.remove('moveDown')
+            }, 1000);
+        }, 1000);
+    }, 1000);
+}, 4000);
+
+
+
+// let interval = setInterval(() => {
+//     console.log('privet');
+// }, 1000);
+
+// setTimeout(() => {
+// clearInterval(interval)    
+// }, 5000);

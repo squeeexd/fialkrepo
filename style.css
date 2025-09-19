@@ -21,5 +21,30 @@
 #sq3{
     width: 200px;
     height: 200px;
-    background-color: rgb(5, 241, 5);
+    background-color: rgb(246, 15, 238);
+}
+
+.circle{
+    width: 100px;
+    height: 100px;
+
+    background-color: rgb(10, 181, 243);
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+
+
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.moveRight{
+    left: 100px;
+}
+
+.moveDown{
+    top: 100px;
 }
