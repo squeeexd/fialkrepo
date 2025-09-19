@@ -60,30 +60,30 @@
 // const inp = document.getElementById('inp')
 // console.log(inp.value);
 // inp.value=''
-const inp = document.getElementById('inp')
-const inp2 = document.getElementById('inp2')
-const btn = document.getElementById('btn')
-const result = document.getElementById('result')
+// const inp = document.getElementById('inp')
+// const inp2 = document.getElementById('inp2')
+// const btn = document.getElementById('btn')
+// const result = document.getElementById('result')
 
-console.log('123');
-
-
-check = btn.addEventListener('click', logVal)
+// console.log('123');
 
 
-function logVal() {
-    if (!isNaN(inp.value) && (!isNaN(inp2.value))) {
-        result.classList.remove('error')
-        result.textContent = Number(inp.value)*Number(inp2.value)
-    } 
-    else {
-        result.classList.add('error')
-        result.textContent = 'Вы ввели не число!!'
-    }
+// check = btn.addEventListener('click', logVal)
+
+
+// function logVal() {
+//     if (!isNaN(inp.value) && (!isNaN(inp2.value))) {
+//         result.classList.remove('error')
+//         result.textContent = Number(inp.value)*Number(inp2.value)
+//     } 
+//     else {
+//         result.classList.add('error')
+//         result.textContent = 'Вы ввели не число!!'
+//     }
     
-    inp.value=('')
-    inp2.value=('')
-}
+//     inp.value=('')
+//     inp2.value=('')
+// }
 
 // let cond = 5
 // switch (cond) {
