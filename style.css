@@ -1,3 +1,8 @@
+ :root{
+   --sliderPos: 0
+}
+
+/*
 .result{
     white-space: pre-line;
 }
@@ -6,29 +11,11 @@
     color: red;
 }
 
-#sq1{
-    width: 200px;
-    height: 200px;
-    background-color: red;
-}
-
-#sq2{
-    width: 200px;
-    height: 200px;
-    background-color: rgb(5, 60, 241);
-}
-
-#sq3{
-    width: 200px;
-    height: 200px;
-    background-color: rgb(246, 15, 238);
-}
-
 .circle{
     width: 100px;
     height: 100px;
 
-    background-color: rgb(10, 181, 243);
+    background-color: var(--color);
     border: 1px solid black;
     display: flex;
     justify-content: center;
@@ -47,4 +34,21 @@
 
 .moveDown{
     top: 100px;
+} */
+
+img{
+    width: 250px;
+    height: 250px;
+}
+
+.wrapper{
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    transform: translateX(var(--sliderPos));
+    transition: 1s;
 }
